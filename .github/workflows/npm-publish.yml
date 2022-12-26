@@ -9,4 +9,7 @@ jobs:
   publish:
     runs-on: ubuntu-latest
     steps:
-      - n
+      - name: "checkout"
+        uses: actions/checkout@v1
+
+      - name: "s
