@@ -18,4 +18,7 @@ jobs:
           node-version: 10
 
       - name: "install"
-        run: np
+        run: npm install
+
+      - name: "publish"
+        uses: JS-DevTo
