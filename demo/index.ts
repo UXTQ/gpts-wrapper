@@ -5,4 +5,7 @@
 
 import { GpTs } from '../src';
 
-import * as fs from 'fs'; // needs "@types/
+import * as fs from 'fs'; // needs "@types/node": "^14.14.37",
+import * as path from 'path';
+
+(async () => {
