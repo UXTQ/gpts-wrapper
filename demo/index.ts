@@ -11,4 +11,8 @@ import * as path from 'path';
 (async () => {
 	const openai_apiKey = ''; // "sk-123..."
 	if (!openai_apiKey) {
-		co
+		console.error('no apiKey provided');
+		return;
+	}
+
+	const 
