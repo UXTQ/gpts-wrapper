@@ -15,4 +15,5 @@ import * as path from 'path';
 		return;
 	}
 
-	const 
+	const c = new GpTs(openai_apiKey);
+	// console.log
