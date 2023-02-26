@@ -16,4 +16,7 @@ import * as path from 'path';
 	}
 
 	const c = new GpTs(openai_apiKey);
-	// console.log
+	// console.log('c', c);
+
+	try {
+		// const s = await c.engineList(
