@@ -25,4 +25,7 @@ import * as path from 'path';
 
 		// const s = await c.completion({
 		// 	engineId: 'ada',
-		// 	pr
+		// 	prompt: 'whats for lunch?'
+		// });
+
+		// hmmm, an emp
