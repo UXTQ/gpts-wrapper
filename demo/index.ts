@@ -23,4 +23,6 @@ import * as path from 'path';
 
 		// const s = await c.engineRetrieve('ada');
 
-		/
+		// const s = await c.completion({
+		// 	engineId: 'ada',
+		// 	pr
