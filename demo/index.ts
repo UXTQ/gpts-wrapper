@@ -33,4 +33,6 @@ import * as path from 'path';
 		// 	engineId: 'ada'
 		// });
 
-		// const s = 
+		// const s = await c.search({
+		// 	engineId: 'ada',
+		// 
