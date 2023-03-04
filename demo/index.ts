@@ -30,4 +30,7 @@ import * as path from 'path';
 
 		// hmmm, an empty prompt completion why not
 		// const s = await c.completion({
-	
+		// 	engineId: 'ada'
+		// });
+
+		// const s = 
