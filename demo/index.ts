@@ -28,4 +28,6 @@ import * as path from 'path';
 		// 	prompt: 'whats for lunch?'
 		// });
 
-		// hmmm, an emp
+		// hmmm, an empty prompt completion why not
+		// const s = await c.completion({
+	
