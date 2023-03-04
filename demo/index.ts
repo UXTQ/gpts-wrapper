@@ -35,4 +35,5 @@ import * as path from 'path';
 
 		// const s = await c.search({
 		// 	engineId: 'ada',
-		// 
+		// 	documents: ['mango', 'apple', 'pear'],
+		// 	query: 'sweetest'
