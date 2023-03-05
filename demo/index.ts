@@ -37,3 +37,7 @@ import * as path from 'path';
 		// 	engineId: 'ada',
 		// 	documents: ['mango', 'apple', 'pear'],
 		// 	query: 'sweetest'
+		// });
+
+		// const s = await c.classification({
+		// 	
