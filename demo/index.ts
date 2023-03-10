@@ -40,4 +40,6 @@ import * as path from 'path';
 		// });
 
 		// const s = await c.classification({
-		// 	
+		// 	engineId: 'ada',
+		// 	examples: [
+		// 		['A happy moment', 'Positive
