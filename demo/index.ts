@@ -42,4 +42,6 @@ import * as path from 'path';
 		// const s = await c.classification({
 		// 	engineId: 'ada',
 		// 	examples: [
-		// 		['A happy moment', 'Positive
+		// 		['A happy moment', 'Positive'],
+		// 		['I am sad.', 'Negative'],
+		// 		['I am feeling awe
