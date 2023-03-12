@@ -44,4 +44,6 @@ import * as path from 'path';
 		// 	examples: [
 		// 		['A happy moment', 'Positive'],
 		// 		['I am sad.', 'Negative'],
-		// 		['I am feeling awe
+		// 		['I am feeling awesome', 'Positive']
+		// 	],
+		// 	query: 'It is a rain
