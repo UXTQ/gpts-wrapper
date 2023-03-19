@@ -46,4 +46,7 @@ import * as path from 'path';
 		// 		['I am sad.', 'Negative'],
 		// 		['I am feeling awesome', 'Positive']
 		// 	],
-		// 	query: 'It is a rain
+		// 	query: 'It is a raining day: (',
+		// });
+
+		// const s = await c.
