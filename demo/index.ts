@@ -54,4 +54,6 @@ import * as path from 'path';
 		// 	examples: [
 		// 		['A happy moment', 'Positive'],
 		// 		['I am sad.', 'Negative'],
-	
+		// 		['I am feeling awesome', 'Positive']
+		// 	],
+		//
