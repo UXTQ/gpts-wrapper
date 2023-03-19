@@ -52,4 +52,6 @@ import * as path from 'path';
 		// const s = await c.answer({
 		// 	engineId: 'ada',
 		// 	examples: [
-		//
+		// 		['A happy moment', 'Positive'],
+		// 		['I am sad.', 'Negative'],
+	
