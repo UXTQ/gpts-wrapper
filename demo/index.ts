@@ -49,4 +49,7 @@ import * as path from 'path';
 		// 	query: 'It is a raining day: (',
 		// });
 
-		// const s = await c.
+		// const s = await c.answer({
+		// 	engineId: 'ada',
+		// 	examples: [
+		//
