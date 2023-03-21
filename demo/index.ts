@@ -57,4 +57,5 @@ import * as path from 'path';
 		// 		['I am feeling awesome', 'Positive']
 		// 	],
 		// 	question: 'What is the meaning of life?',
-		// 	examples_cont
+		// 	examples_context: 'In 2017, U.S. life expectancy was 78.6 years.',
+		/
