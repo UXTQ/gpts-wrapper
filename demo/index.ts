@@ -56,4 +56,5 @@ import * as path from 'path';
 		// 		['I am sad.', 'Negative'],
 		// 		['I am feeling awesome', 'Positive']
 		// 	],
-		//
+		// 	question: 'What is the meaning of life?',
+		// 	examples_cont
