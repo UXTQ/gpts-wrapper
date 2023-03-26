@@ -68,4 +68,6 @@ import * as path from 'path';
 		// const f = fs.createReadStream(path.join(__dirname, './answers-file.jsonl'));
 		// const s = await c.fileUpload(f, 'answers');
 
-		// const s = await c.fileRe
+		// const s = await c.fileRetrieve('file-2U2KDdN8yezg4LY18C2IZ3Gx');
+
+		// const s = await c
