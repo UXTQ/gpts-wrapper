@@ -70,4 +70,6 @@ import * as path from 'path';
 
 		// const s = await c.fileRetrieve('file-2U2KDdN8yezg4LY18C2IZ3Gx');
 
-		// const s = await c
+		// const s = await c.fileDelete('file-2U2KDdN8yezg4LY18C2IZ3Gx');
+
+		//
