@@ -74,4 +74,6 @@ import * as path from 'path';
 
 		// const s = await c.embeddings({
 		// 	engineId: 'text-search-babbage-doc-001', // embeddings models: https://beta.openai.com/docs/guides/embeddings/types-of-embedding-models
-		// 	i
+		// 	input: 'the sky is blue'
+		// });
+		// console.log(s.d
