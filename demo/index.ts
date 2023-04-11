@@ -79,4 +79,4 @@ import * as path from 'path';
 		// console.log(s.data[0].embedding);
 
 		const s = await c.embeddings({
-			engineId: 'text-search-babbage-query-001', // embeddings models: https://beta.op
+			engineId: 'text-search-babbage-query-001', // embeddings models: https://beta.openai.com/docs/guides/embeddings/types-of-embedding-models
