@@ -79,4 +79,4 @@ import * as path from 'path';
 		// console.log(s.data[0].embedding);
 
 		const s = await c.embeddings({
-			eng
+			engineId: 'text-search-babbage-query-001', // embeddings models: https://beta.op
