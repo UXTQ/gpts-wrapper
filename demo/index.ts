@@ -80,4 +80,9 @@ import * as path from 'path';
 
 		const s = await c.embeddings({
 			engineId: 'text-search-babbage-query-001', // embeddings models: https://beta.openai.com/docs/guides/embeddings/types-of-embedding-models
-			input: ['the sky is blue', 'grass is green'
+			input: ['the sky is blue', 'grass is green']
+		});
+
+		console.log('s:', s);
+	} catch (e) {
+	
