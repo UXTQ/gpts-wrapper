@@ -85,4 +85,6 @@ import * as path from 'path';
 
 		console.log('s:', s);
 	} catch (e) {
-	
+		console.log('err:', e);
+	}
+})();
