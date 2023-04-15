@@ -1,2 +1,2 @@
 /// <reference types="node" />
-import { AnswerRequest, AnswerResponse, Classificati
+import { AnswerRequest, AnswerResponse, ClassificationRequest, ClassificationResponse, Completi
