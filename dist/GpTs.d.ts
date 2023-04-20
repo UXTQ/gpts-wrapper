@@ -1,2 +1,2 @@
 /// <reference types="node" />
-import { AnswerRequest, AnswerResponse, ClassificationRequest, ClassificationResponse, CompletionRequest, CompletionResponse, EngineId, FileListResponse, EngineListResponse, EngineRetrieveRespon
+import { AnswerRequest, AnswerResponse, ClassificationRequest, ClassificationResponse, CompletionRequest, CompletionResponse, EngineId, FileListResponse, EngineListResponse, EngineRetrieveResponse, SearchRequest, SearchResponse, FileUploadResponse, Fi
