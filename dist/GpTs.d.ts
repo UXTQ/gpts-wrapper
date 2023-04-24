@@ -3,4 +3,7 @@ import { AnswerRequest, AnswerResponse, ClassificationRequest, ClassificationRes
 import * as fs from 'fs';
 import { EmbeddingsResponse } from '.';
 export declare class GpTs {
-    origi
+    origin: string;
+    apiKey: string;
+    private headers;
+    c
