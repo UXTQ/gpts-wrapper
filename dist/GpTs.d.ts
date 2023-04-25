@@ -6,4 +6,5 @@ export declare class GpTs {
     origin: string;
     apiKey: string;
     private headers;
-    c
+    constructor(apiKey: string, origin?: string);
+    private s
