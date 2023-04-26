@@ -9,4 +9,5 @@ export declare class GpTs {
     constructor(apiKey: string, origin?: string);
     private setApiKey;
     private request;
-    engineList(): Prom
+    engineList(): Promise<EngineListResponse>;
+    engineRetrieve(engineId: E
