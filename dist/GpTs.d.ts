@@ -10,4 +10,5 @@ export declare class GpTs {
     private setApiKey;
     private request;
     engineList(): Promise<EngineListResponse>;
-    engineRetrieve(engineId: E
+    engineRetrieve(engineId: EngineId): Promise<EngineRetrieveResponse>;
+    comple
