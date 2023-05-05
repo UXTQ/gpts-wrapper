@@ -12,4 +12,5 @@ export declare class GpTs {
     engineList(): Promise<EngineListResponse>;
     engineRetrieve(engineId: EngineId): Promise<EngineRetrieveResponse>;
     completion(options: CompletionRequest): Promise<CompletionResponse>;
-    completionStream(engineId: Engi
+    completionStream(engineId: EngineId, options: Partial<CompletionRequest>): Promise<any>;
+    sear
