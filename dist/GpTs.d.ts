@@ -15,4 +15,5 @@ export declare class GpTs {
     completionStream(engineId: EngineId, options: Partial<CompletionRequest>): Promise<any>;
     search(options: SearchRequest): Promise<SearchResponse>;
     classification(options: ClassificationRequest): Promise<ClassificationResponse>;
-    answer(options: Answe
+    answer(options: AnswerRequest): Promise<AnswerResponse>;
+    fileList(): Pro
