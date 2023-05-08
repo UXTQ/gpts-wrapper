@@ -16,4 +16,5 @@ export declare class GpTs {
     search(options: SearchRequest): Promise<SearchResponse>;
     classification(options: ClassificationRequest): Promise<ClassificationResponse>;
     answer(options: AnswerRequest): Promise<AnswerResponse>;
-    fileList(): Pro
+    fileList(): Promise<FileListResponse>;
+    fileUpload(file: fs.ReadStream, purpose:
