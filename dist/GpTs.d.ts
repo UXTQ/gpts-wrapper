@@ -18,4 +18,5 @@ export declare class GpTs {
     answer(options: AnswerRequest): Promise<AnswerResponse>;
     fileList(): Promise<FileListResponse>;
     fileUpload(file: fs.ReadStream, purpose: 'answers' | 'classifications' | 'search'): Promise<FileUploadResponse>;
-    fileRetrieve(fileId: string): Promise
+    fileRetrieve(fileId: string): Promise<FileRetrieveResponse>;
+    fileDelete(fileId: string): Promise<v
