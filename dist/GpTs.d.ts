@@ -20,4 +20,6 @@ export declare class GpTs {
     fileUpload(file: fs.ReadStream, purpose: 'answers' | 'classifications' | 'search'): Promise<FileUploadResponse>;
     fileRetrieve(fileId: string): Promise<FileRetrieveResponse>;
     fileDelete(fileId: string): Promise<void>;
-    embeddings(options: EmbeddingsRequest): Promise<Embeddings
+    embeddings(options: EmbeddingsRequest): Promise<EmbeddingsResponse>;
+}
+export default GpTs;
