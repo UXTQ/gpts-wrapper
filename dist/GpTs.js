@@ -11,4 +11,6 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.GpTs = void 0;
 const axios_1 = require("axios");
-const FormData = requir
+const FormData = require("form-data");
+class GpTs {
+    constructor(apiKey, or
