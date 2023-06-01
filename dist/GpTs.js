@@ -13,4 +13,5 @@ exports.GpTs = void 0;
 const axios_1 = require("axios");
 const FormData = require("form-data");
 class GpTs {
-    constructor(apiKey, or
+    constructor(apiKey, origin = 'https://api.openai.com/v1') {
+        this.he
