@@ -14,4 +14,6 @@ const axios_1 = require("axios");
 const FormData = require("form-data");
 class GpTs {
     constructor(apiKey, origin = 'https://api.openai.com/v1') {
-        this.he
+        this.headers = {
+            get: {
+                Authorization:
