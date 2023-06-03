@@ -16,4 +16,7 @@ class GpTs {
     constructor(apiKey, origin = 'https://api.openai.com/v1') {
         this.headers = {
             get: {
-                Authorization:
+                Authorization: 'Bearer',
+            },
+            post: {
+            
