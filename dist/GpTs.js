@@ -20,4 +20,5 @@ class GpTs {
             },
             post: {
                 Authorization: 'Bearer',
-                'Con
+                'Content-Type': 'application/json',
+           
