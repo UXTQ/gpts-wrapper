@@ -19,4 +19,5 @@ class GpTs {
                 Authorization: 'Bearer',
             },
             post: {
-            
+                Authorization: 'Bearer',
+                'Con
