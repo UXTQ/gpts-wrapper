@@ -21,4 +21,6 @@ class GpTs {
             post: {
                 Authorization: 'Bearer',
                 'Content-Type': 'application/json',
-           
+            },
+        };
+        // console.log('GpTs cons
