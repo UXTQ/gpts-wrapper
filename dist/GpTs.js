@@ -23,4 +23,6 @@ class GpTs {
                 'Content-Type': 'application/json',
             },
         };
-        // console.log('GpTs cons
+        // console.log('GpTs constructed');
+        this.origin = origin;
+        thi
