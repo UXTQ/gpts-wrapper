@@ -25,4 +25,7 @@ class GpTs {
         };
         // console.log('GpTs constructed');
         this.origin = origin;
-        thi
+        this.setApiKey(apiKey);
+    }
+    setApiKey(apiKey) {
+  
