@@ -28,4 +28,5 @@ class GpTs {
         this.setApiKey(apiKey);
     }
     setApiKey(apiKey) {
-  
+        this.apiKey = apiKey;
+        this.headers.get.Aut
