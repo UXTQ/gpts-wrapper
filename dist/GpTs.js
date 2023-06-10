@@ -31,4 +31,5 @@ class GpTs {
         this.apiKey = apiKey;
         this.headers.get.Authorization = `Bearer ${this.apiKey}`;
         this.headers.post.Authorization = `Bearer ${this.apiKey}`;
-        // 
+        // TODO use axios instance for ease
+        //
