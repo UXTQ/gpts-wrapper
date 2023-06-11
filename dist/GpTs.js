@@ -32,4 +32,5 @@ class GpTs {
         this.headers.get.Authorization = `Bearer ${this.apiKey}`;
         this.headers.post.Authorization = `Bearer ${this.apiKey}`;
         // TODO use axios instance for ease
-        //
+        // const instance = axios.create({
+        // 	baseURL: 'http
