@@ -38,4 +38,5 @@ class GpTs {
         // 	headers: { 'X-Custom-Header': 'foobar' },
         // });
     }
-    // eslint-disable-next-line @typescript-
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    request(endpoint, method 
