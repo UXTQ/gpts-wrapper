@@ -39,4 +39,5 @@ class GpTs {
         // });
     }
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
-    request(endpoint, method 
+    request(endpoint, method = 'GET', reqOptions) {
+        return __awaiter(this, 
