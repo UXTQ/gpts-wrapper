@@ -40,4 +40,5 @@ class GpTs {
     }
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
     request(endpoint, method = 'GET', reqOptions) {
-        return __awaiter(this, 
+        return __awaiter(this, void 0, void 0, function* () {
+            const url = `${
