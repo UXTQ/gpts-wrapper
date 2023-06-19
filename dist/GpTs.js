@@ -41,4 +41,5 @@ class GpTs {
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
     request(endpoint, method = 'GET', reqOptions) {
         return __awaiter(this, void 0, void 0, function* () {
-            const url = `${this.origin}/${endpoint}`; // ex: https://api.openai.c
+            const url = `${this.origin}/${endpoint}`; // ex: https://api.openai.com/v1/engines
+            const res = yield axios_1
