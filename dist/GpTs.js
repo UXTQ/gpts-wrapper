@@ -42,4 +42,7 @@ class GpTs {
     request(endpoint, method = 'GET', reqOptions) {
         return __awaiter(this, void 0, void 0, function* () {
             const url = `${this.origin}/${endpoint}`; // ex: https://api.openai.com/v1/engines
-            const res = yield axios_1
+            const res = yield axios_1.default.request({
+                url,
+                method,
+               
