@@ -47,4 +47,4 @@ class GpTs {
                 method,
                 headers: this.headers.post,
                 responseType: 'json',
-  
+                data: method == 'POST' ? reqOptions :
