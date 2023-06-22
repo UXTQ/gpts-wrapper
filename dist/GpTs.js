@@ -45,4 +45,6 @@ class GpTs {
             const res = yield axios_1.default.request({
                 url,
                 method,
-               
+                headers: this.headers.post,
+                responseType: 'json',
+  
