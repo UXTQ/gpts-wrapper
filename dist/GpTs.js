@@ -51,4 +51,6 @@ class GpTs {
             });
             if (res.status == 401) {
                 throw 'invalid api key';
-            
+            }
+            else if (res.status == 403) {
+                throw 'no acce
