@@ -55,4 +55,5 @@ class GpTs {
             else if (res.status == 403) {
                 throw 'no access to this';
             }
-            else i
+            else if (res.status !== 200) {
+                throw 'request err'
