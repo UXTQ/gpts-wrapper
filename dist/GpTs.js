@@ -53,4 +53,6 @@ class GpTs {
                 throw 'invalid api key';
             }
             else if (res.status == 403) {
-                throw 'no acce
+                throw 'no access to this';
+            }
+            else i
