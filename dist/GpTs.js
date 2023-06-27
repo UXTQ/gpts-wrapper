@@ -59,4 +59,7 @@ class GpTs {
                 throw 'request err';
             }
             else {
-                const json = r
+                const json = res.data;
+                return json;
+            }
+        
