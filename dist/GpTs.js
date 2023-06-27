@@ -56,4 +56,7 @@ class GpTs {
                 throw 'no access to this';
             }
             else if (res.status !== 200) {
-                throw 'request err'
+                throw 'request err';
+            }
+            else {
+                const json = r
