@@ -66,4 +66,8 @@ class GpTs {
     }
     engineList() {
         return __awaiter(this, void 0, void 0, function* () {
-            return yield this.request('engi
+            return yield this.request('engines');
+        });
+    }
+    engineRetrieve(engineId) {
+        retu
