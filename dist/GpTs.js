@@ -76,4 +76,5 @@ class GpTs {
     }
     completion(options) {
         return __awaiter(this, void 0, void 0, function* () {
-            const engine
+            const engineId = options.engineId;
+            delete options.engineId; // 
