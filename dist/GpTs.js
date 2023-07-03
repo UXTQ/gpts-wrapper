@@ -77,4 +77,5 @@ class GpTs {
     completion(options) {
         return __awaiter(this, void 0, void 0, function* () {
             const engineId = options.engineId;
-            delete options.engineId; // 
+            delete options.engineId; // some openai endpoints err if you pass in extra params
+       
