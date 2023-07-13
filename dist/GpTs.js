@@ -81,4 +81,6 @@ class GpTs {
             return yield this.request(`engines/${engineId}/completions`, 'POST', options);
         });
     }
-    // TODO: https://beta.openai.com/docs/api-reference/completions/cr
+    // TODO: https://beta.openai.com/docs/api-reference/completions/create-via-get
+    completionStream(engineId, options) {
+   
