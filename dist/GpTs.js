@@ -83,4 +83,4 @@ class GpTs {
     }
     // TODO: https://beta.openai.com/docs/api-reference/completions/create-via-get
     completionStream(engineId, options) {
-   
+        return __awaiter(this, void 0, void 0, func
