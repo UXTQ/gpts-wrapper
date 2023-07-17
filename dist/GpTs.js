@@ -88,4 +88,5 @@ class GpTs {
             return;
         });
     }
-    se
+    search(options) {
+        return __awaiter(this, void 0, void 0, funct
