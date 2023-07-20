@@ -92,4 +92,4 @@ class GpTs {
         return __awaiter(this, void 0, void 0, function* () {
             const engineId = options.engineId;
             delete options.engineId; // some endpoints err if you pass in this
-            return yield t
+            return yield this.request(`engines/${engineId}/search`, 'POST', options
