@@ -97,4 +97,5 @@ class GpTs {
     }
     classification(options) {
         return __awaiter(this, void 0, void 0, function* () {
-            const engineId 
+            const engineId = options.engineId;
+            delete options.engineId; // some
