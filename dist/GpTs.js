@@ -101,4 +101,4 @@ class GpTs {
             delete options.engineId; // some endpoints err if you pass in this
             // openai mixes up model / engineId here?
             const opts = Object.assign({ model: engineId }, options);
-            re
+            return yield this.request('classifications', 'P
