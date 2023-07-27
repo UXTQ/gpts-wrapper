@@ -105,4 +105,6 @@ class GpTs {
         });
     }
     answer(options) {
-        return __awaiter(this, void 0, void 0, function* ()
+        return __awaiter(this, void 0, void 0, function* () {
+            const engineId = options.engineId;
+            dele
