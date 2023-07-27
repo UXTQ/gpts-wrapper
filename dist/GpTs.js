@@ -105,4 +105,4 @@ class GpTs {
         });
     }
     answer(options) {
-   
+        return __awaiter(this, void 0, void 0, function* ()
