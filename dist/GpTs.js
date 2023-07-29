@@ -107,4 +107,4 @@ class GpTs {
     answer(options) {
         return __awaiter(this, void 0, void 0, function* () {
             const engineId = options.engineId;
-            dele
+            delete options.engineId; // some endpoints err if you pass in th
