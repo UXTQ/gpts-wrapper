@@ -107,4 +107,5 @@ class GpTs {
     answer(options) {
         return __awaiter(this, void 0, void 0, function* () {
             const engineId = options.engineId;
-            delete options.engineId; // some endpoints err if you pass in th
+            delete options.engineId; // some endpoints err if you pass in this
+            // openai mixes up model / engin
