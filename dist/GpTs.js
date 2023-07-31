@@ -110,4 +110,7 @@ class GpTs {
             delete options.engineId; // some endpoints err if you pass in this
             // openai mixes up model / engineId here?
             const opts = Object.assign({ model: engineId }, options);
-            return yield this
+            return yield this.request('answers', 'POST', opts);
+        });
+    }
+   
