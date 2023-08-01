@@ -113,4 +113,5 @@ class GpTs {
             return yield this.request('answers', 'POST', opts);
         });
     }
-   
+    fileList() {
+        return __awaiter(this, void 0, void 0
