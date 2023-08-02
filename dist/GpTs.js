@@ -119,4 +119,5 @@ class GpTs {
         });
     }
     // backend: file is fs.ReadStream (node.js)
-    //
+    // frontend: file is ...
+    fileUpload(file, purpose)
