@@ -115,4 +115,8 @@ class GpTs {
     }
     fileList() {
         return __awaiter(this, void 0, void 0, function* () {
-            return yield this.request('files
+            return yield this.request('files');
+        });
+    }
+    // backend: file is fs.ReadStream (node.js)
+    //
