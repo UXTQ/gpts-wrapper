@@ -123,4 +123,5 @@ class GpTs {
     fileUpload(file, purpose) {
         return __awaiter(this, void 0, void 0, function* () {
             const formData = new FormData();
- 
+            formData.append('purpose', purpose);
+            form
