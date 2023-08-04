@@ -121,4 +121,6 @@ class GpTs {
     // backend: file is fs.ReadStream (node.js)
     // frontend: file is ...
     fileUpload(file, purpose) {
-        return __awaiter(this, void 0, void 0, funct
+        return __awaiter(this, void 0, void 0, function* () {
+            const formData = new FormData();
+ 
