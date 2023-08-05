@@ -124,4 +124,5 @@ class GpTs {
         return __awaiter(this, void 0, void 0, function* () {
             const formData = new FormData();
             formData.append('purpose', purpose);
-            form
+            formData.append('file', file);
+            const boundary = 
