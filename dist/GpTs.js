@@ -125,4 +125,5 @@ class GpTs {
             const formData = new FormData();
             formData.append('purpose', purpose);
             formData.append('file', file);
-            const boundary = 
+            const boundary = formData.getBoundary();
+            const res = yield axios_1
