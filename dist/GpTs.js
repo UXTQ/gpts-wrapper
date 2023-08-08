@@ -126,4 +126,6 @@ class GpTs {
             formData.append('purpose', purpose);
             formData.append('file', file);
             const boundary = formData.getBoundary();
-            const res = yield axios_1
+            const res = yield axios_1.default({
+                url: `${this.origin}/files`,
+  
