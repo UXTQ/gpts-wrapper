@@ -128,4 +128,5 @@ class GpTs {
             const boundary = formData.getBoundary();
             const res = yield axios_1.default({
                 url: `${this.origin}/files`,
-  
+                method: 'POST',
+                data: formData,
