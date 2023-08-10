@@ -130,3 +130,5 @@ class GpTs {
                 url: `${this.origin}/files`,
                 method: 'POST',
                 data: formData,
+                headers: {
+                    Authorization: `Beare
