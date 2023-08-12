@@ -132,4 +132,5 @@ class GpTs {
                 data: formData,
                 headers: {
                     Authorization: `Bearer ${this.apiKey}`,
-                    // form-data
+                    // form-data POST doesnt work without BOUNDARY !
+                    'C
