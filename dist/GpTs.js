@@ -131,4 +131,5 @@ class GpTs {
                 method: 'POST',
                 data: formData,
                 headers: {
-                    Authorization: `Beare
+                    Authorization: `Bearer ${this.apiKey}`,
+                    // form-data
