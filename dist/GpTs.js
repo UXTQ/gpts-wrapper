@@ -133,4 +133,6 @@ class GpTs {
                 headers: {
                     Authorization: `Bearer ${this.apiKey}`,
                     // form-data POST doesnt work without BOUNDARY !
-                    'Content-Type': `multipart/form-data; boundar
+                    'Content-Type': `multipart/form-data; boundary=${boundary}`,
+                },
+            }
