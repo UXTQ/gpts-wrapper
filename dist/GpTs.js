@@ -143,4 +143,5 @@ class GpTs {
                 throw 'request err';
             }
             else {
-       
+                const json = res.data;
+                return json;
