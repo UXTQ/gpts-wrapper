@@ -145,3 +145,8 @@ class GpTs {
             else {
                 const json = res.data;
                 return json;
+            }
+        });
+    }
+    fileRetrieve(fileId) {
+        retur
