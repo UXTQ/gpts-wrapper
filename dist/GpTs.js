@@ -149,4 +149,5 @@ class GpTs {
         });
     }
     fileRetrieve(fileId) {
-        retur
+        return __awaiter(this, void 0, void 0, function* () {
+         
