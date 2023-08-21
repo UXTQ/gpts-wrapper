@@ -153,4 +153,5 @@ class GpTs {
             return yield this.request(`files/${fileId}`);
         });
     }
-    // "Only owners of organizations can delete files currently." (https://beta.openai.com/docs/api-reference/fi
+    // "Only owners of organizations can delete files currently." (https://beta.openai.com/docs/api-reference/files/delete)
+    // not sure about the return type here as 
