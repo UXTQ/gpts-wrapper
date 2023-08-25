@@ -156,4 +156,5 @@ class GpTs {
     // "Only owners of organizations can delete files currently." (https://beta.openai.com/docs/api-reference/files/delete)
     // not sure about the return type here as i am not an org owner
     fileDelete(fileId) {
-        retu
+        return __awaiter(this, void 0, void 0, function* () {
+      
