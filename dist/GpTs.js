@@ -157,4 +157,5 @@ class GpTs {
     // not sure about the return type here as i am not an org owner
     fileDelete(fileId) {
         return __awaiter(this, void 0, void 0, function* () {
-      
+            return yield this.request(`files/${fileId}`, 'DELETE');
+    
