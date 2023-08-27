@@ -161,4 +161,6 @@ class GpTs {
         });
     }
     // embeddings aka embeddingsCreate
-    /* FYI g
+    /* FYI gpt3 embeddings:
+        Ada (1024 dimensions)
+        Babba
