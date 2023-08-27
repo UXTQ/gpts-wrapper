@@ -158,4 +158,7 @@ class GpTs {
     fileDelete(fileId) {
         return __awaiter(this, void 0, void 0, function* () {
             return yield this.request(`files/${fileId}`, 'DELETE');
-    
+        });
+    }
+    // embeddings aka embeddingsCreate
+    /* FYI g
