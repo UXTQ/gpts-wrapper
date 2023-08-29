@@ -167,4 +167,5 @@ class GpTs {
         Curie (4096 dimensions)
         Davinci (12288 dimensions)
      */
-    emb
+    embeddings(options) {
+        return __awaiter(this, void 0, 
