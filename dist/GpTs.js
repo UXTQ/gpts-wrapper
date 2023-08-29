@@ -164,4 +164,7 @@ class GpTs {
     /* FYI gpt3 embeddings:
         Ada (1024 dimensions)
         Babbage (2048 dimensions)
-        Curie (4096 dimensions
+        Curie (4096 dimensions)
+        Davinci (12288 dimensions)
+     */
+    emb
