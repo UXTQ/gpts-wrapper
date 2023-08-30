@@ -168,4 +168,5 @@ class GpTs {
         Davinci (12288 dimensions)
      */
     embeddings(options) {
-        return __awaiter(this, void 0, 
+        return __awaiter(this, void 0, void 0, function* () {
+            const engineId
