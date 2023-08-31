@@ -173,4 +173,7 @@ class GpTs {
             delete options.engineId; // some endpoints err if you pass in this
             return yield this.request(`engines/${engineId}/embeddings`, 'POST', options);
         });
- 
+    }
+}
+exports.GpTs = GpTs;
+exports.default = GpTs;
