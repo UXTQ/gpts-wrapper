@@ -13,3 +13,4 @@ Object.defineProperty(exports, "__esModule", { value: true });
 __exportStar(require("./utils"), exports);
 __exportStar(require("./typings"), exports); // for use elswehere
 __exportStar(require("./GpTs"), exports); // main GpTs class
+//# sourceMappingURL=index.js.map
