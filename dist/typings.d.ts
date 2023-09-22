@@ -20,3 +20,56 @@ export declare type Engine = {
     id: EngineId;
     object: ObjectType.engine;
     owner: string;
+    ready: boolean;
+    created: null;
+    max_replicas: null;
+    permissions: null;
+    ready_replicas: null;
+    replicas: null;
+};
+export declare type EngineListResponse = {
+    data: Engine[];
+    object: ObjectType.list;
+};
+export declare type EngineRetrieveResponse = Engine;
+export declare type CompletionRequest = BasicRequest & {
+    prompt?: string | string[];
+    max_tokens?: number;
+    temperature?: number;
+    top_p?: number;
+    n?: number;
+    stream?: boolean;
+    logprobs?: boolean;
+    echo?: boolean;
+    stop?: string | string[];
+    presence_penalty?: number;
+    frequency_penalty?: number;
+    best_of?: number;
+    logit_bias?: any;
+};
+export declare type CompletionResponse = {
+    id: string;
+    object: ObjectType.text_completion;
+    created: number;
+    model: string;
+    choices: {
+        text: string;
+        index: number;
+        logprobs: null;
+        finish_reason: string;
+    }[];
+};
+export declare type SearchRequest = BasicRequest & {
+    documents?: string[];
+    file?: string;
+    query: string;
+    max_rerank?: number;
+    return_metadata?: boolean;
+};
+export declare type SearchResponse = {
+    data: SearchResult[];
+    object: ObjectType.list;
+    model: string;
+};
+export declare type SearchResult = {
+    document: number;
