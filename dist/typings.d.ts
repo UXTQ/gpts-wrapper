@@ -133,3 +133,37 @@ export declare type AnswerResponse = {
     model: string;
     object: ObjectType.answer;
     search_model: EngineId;
+    selected_documents: {
+        document: number;
+        text: string;
+    }[];
+};
+export declare type File = {
+    id: string;
+    object: ObjectType.file;
+    bytes: number;
+    created_at: number;
+    filename: string;
+    format?: string;
+    purpose: 'answers' | 'classifications' | 'search';
+    status?: string;
+};
+export declare type FileListResponse = {
+    data: File[];
+    object: ObjectType.list;
+};
+export declare type FileUploadResponse = File;
+export declare type FileRetrieveResponse = File;
+export declare type EmbeddingsRequest = BasicRequest & {
+    input: string | string[];
+    user?: string;
+};
+export declare type EmbeddingsResponse = {
+    object: ObjectType.list;
+    model: string;
+    data: {
+        object: ObjectType.embedding;
+        index: number;
+        embedding: number[];
+    }[];
+};
