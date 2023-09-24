@@ -6,4 +6,5 @@ var ObjectType;
     ObjectType[ObjectType["engine"] = 0] = "engine";
     ObjectType[ObjectType["list"] = 1] = "list";
     ObjectType[ObjectType["text_completion"] = 2] = "text_completion";
-    ObjectType[Obj
+    ObjectType[ObjectType["search_result"] = 3] = "search_result";
+    ObjectType
