@@ -5,4 +5,5 @@ var ObjectType;
 (function (ObjectType) {
     ObjectType[ObjectType["engine"] = 0] = "engine";
     ObjectType[ObjectType["list"] = 1] = "list";
-    ObjectType[ObjectType["text
+    ObjectType[ObjectType["text_completion"] = 2] = "text_completion";
+    ObjectType[Obj
