@@ -10,4 +10,5 @@ var ObjectType;
     ObjectType[ObjectType["classification"] = 4] = "classification";
     ObjectType[ObjectType["answer"] = 5] = "answer";
     ObjectType[ObjectType["file"] = 6] = "file";
-    ObjectT
+    ObjectType[ObjectType["embedding"] = 7] = "embedding";
+})(ObjectType = exports
