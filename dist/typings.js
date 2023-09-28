@@ -8,4 +8,5 @@ var ObjectType;
     ObjectType[ObjectType["text_completion"] = 2] = "text_completion";
     ObjectType[ObjectType["search_result"] = 3] = "search_result";
     ObjectType[ObjectType["classification"] = 4] = "classification";
-    Object
+    ObjectType[ObjectType["answer"] = 5] = "answer";
+    Ob
