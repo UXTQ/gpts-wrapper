@@ -9,4 +9,5 @@ var ObjectType;
     ObjectType[ObjectType["search_result"] = 3] = "search_result";
     ObjectType[ObjectType["classification"] = 4] = "classification";
     ObjectType[ObjectType["answer"] = 5] = "answer";
-    Ob
+    ObjectType[ObjectType["file"] = 6] = "file";
+    ObjectT
