@@ -11,4 +11,5 @@ var ObjectType;
     ObjectType[ObjectType["answer"] = 5] = "answer";
     ObjectType[ObjectType["file"] = 6] = "file";
     ObjectType[ObjectType["embedding"] = 7] = "embedding";
-})(ObjectType = exports
+})(ObjectType = exports.ObjectType || (exports.ObjectType = {}));
+//# sourceMapping
