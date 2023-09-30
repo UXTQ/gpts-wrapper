@@ -12,4 +12,4 @@ var ObjectType;
     ObjectType[ObjectType["file"] = 6] = "file";
     ObjectType[ObjectType["embedding"] = 7] = "embedding";
 })(ObjectType = exports.ObjectType || (exports.ObjectType = {}));
-//# sourceMapping
+//# sourceMappingURL=typings.js.map
