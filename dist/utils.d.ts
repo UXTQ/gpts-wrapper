@@ -1,1 +1,1 @@
-export d
+export declare const hello: () => string;
