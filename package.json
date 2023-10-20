@@ -1,0 +1,16 @@
+
+{
+	"name": "gpts",
+	"version": "1.0.8",
+	"description": "typescript wrapper for gpt-3 api",
+	"keywords": [
+		"gpt",
+		"gpt-3",
+		"ts",
+		"gpts",
+		"typescript"
+	],
+	"author": "@spencercap (@thencc)",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
