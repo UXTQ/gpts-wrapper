@@ -1,4 +1,6 @@
 import {
 	AnswerRequest,
 	AnswerResponse,
-	Class
+	ClassificationRequest,
+	ClassificationResponse,
+	CompletionRequ
