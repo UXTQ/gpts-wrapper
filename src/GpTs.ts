@@ -19,4 +19,4 @@ import {
 import axios from 'axios';
 
 // for file uploading
-import 
+import * as fs from 'fs'; // needs "@types/no
