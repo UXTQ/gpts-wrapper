@@ -12,4 +12,8 @@ import {
 	SearchRequest,
 	SearchResponse,
 	FileUploadResponse,
-	FileR
+	FileRetrieveResponse,
+	EmbeddingsRequest,
+} from './typings';
+
+import axios 
