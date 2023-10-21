@@ -16,4 +16,7 @@ import {
 	EmbeddingsRequest,
 } from './typings';
 
-import axios 
+import axios from 'axios';
+
+// for file uploading
+import 
