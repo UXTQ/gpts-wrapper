@@ -7,4 +7,6 @@ import {
 	CompletionResponse,
 	EngineId,
 	FileListResponse,
-	
+	EngineListResponse,
+	EngineRetrieveResponse,
+	Sear
