@@ -9,4 +9,7 @@ import {
 	FileListResponse,
 	EngineListResponse,
 	EngineRetrieveResponse,
-	Sear
+	SearchRequest,
+	SearchResponse,
+	FileUploadResponse,
+	FileR
