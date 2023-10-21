@@ -3,4 +3,8 @@ import {
 	AnswerResponse,
 	ClassificationRequest,
 	ClassificationResponse,
-	CompletionRequ
+	CompletionRequest,
+	CompletionResponse,
+	EngineId,
+	FileListResponse,
+	
