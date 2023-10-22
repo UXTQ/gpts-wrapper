@@ -24,4 +24,7 @@ import * as FormData from 'form-data';
 import { EmbeddingsResponse } from '.';
 
 export class GpTs {
-	origin: string; // origin as var for if/wh
+	origin: string; // origin as var for if/when api changes
+	apiKey: string;
+
+	private headers = {
