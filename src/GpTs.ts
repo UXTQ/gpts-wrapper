@@ -23,4 +23,5 @@ import * as fs from 'fs'; // needs "@types/node": "^14.14.37",
 import * as FormData from 'form-data';
 import { EmbeddingsResponse } from '.';
 
-export class G
+export class GpTs {
+	origin: string; // origin as var for if/wh
