@@ -32,4 +32,5 @@ export class GpTs {
 			Authorization: 'Bearer',
 		},
 		post: {
-	
+			Authorization: 'Bearer',
+			'Content-Type': 'applicati
