@@ -28,3 +28,8 @@ export class GpTs {
 	apiKey: string;
 
 	private headers = {
+		get: {
+			Authorization: 'Bearer',
+		},
+		post: {
+	
