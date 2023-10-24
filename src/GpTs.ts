@@ -33,4 +33,8 @@ export class GpTs {
 		},
 		post: {
 			Authorization: 'Bearer',
-			'Content-Type': 'applicati
+			'Content-Type': 'application/json',
+		},
+	};
+
+	constructor(apiKey: string, origin = 'ht
