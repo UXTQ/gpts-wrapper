@@ -41,4 +41,7 @@ export class GpTs {
 		// console.log('GpTs constructed');
 		this.origin = origin;
 		this.setApiKey(apiKey);
-	
+	}
+
+	private setApiKey(apiKey: string) {
+		this.apiKey = ap
