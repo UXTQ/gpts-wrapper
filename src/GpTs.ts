@@ -38,4 +38,7 @@ export class GpTs {
 	};
 
 	constructor(apiKey: string, origin = 'https://api.openai.com/v1') {
-		// console.log('GpTs constru
+		// console.log('GpTs constructed');
+		this.origin = origin;
+		this.setApiKey(apiKey);
+	
