@@ -45,4 +45,5 @@ export class GpTs {
 
 	private setApiKey(apiKey: string) {
 		this.apiKey = apiKey;
-		this.headers.get.Authorization = `Bearer ${this.apiK
+		this.headers.get.Authorization = `Bearer ${this.apiKey}`;
+		this.headers.post.Authorization = `Bearer ${this.apiKe
