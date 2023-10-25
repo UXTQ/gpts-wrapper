@@ -56,4 +56,5 @@ export class GpTs {
 		// });
 	}
 
-	// eslint-disable
+	// eslint-disable-next-line @typescript-eslint/no-explicit-any
+	private asyn
