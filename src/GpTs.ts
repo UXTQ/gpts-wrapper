@@ -46,4 +46,7 @@ export class GpTs {
 	private setApiKey(apiKey: string) {
 		this.apiKey = apiKey;
 		this.headers.get.Authorization = `Bearer ${this.apiKey}`;
-		this.headers.post.Authorization = `Bearer ${this.apiKe
+		this.headers.post.Authorization = `Bearer ${this.apiKey}`;
+
+		// TODO use axios instance for ease
+		// const i
