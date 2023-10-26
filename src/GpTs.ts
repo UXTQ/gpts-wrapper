@@ -61,4 +61,5 @@ export class GpTs {
 		endpoint: string,
 		method: 'GET' | 'POST' | 'DELETE' = 'GET',
 		reqOptions?: any
-	): Promise<
+	): Promise<T> {
+		const url = `${this.origin}/${endpoint}`; // ex: https
