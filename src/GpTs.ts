@@ -57,4 +57,6 @@ export class GpTs {
 	}
 
 	// eslint-disable-next-line @typescript-eslint/no-explicit-any
-	private asyn
+	private async request<T = any>(
+		endpoint: string,
+		method: 
