@@ -62,4 +62,6 @@ export class GpTs {
 		method: 'GET' | 'POST' | 'DELETE' = 'GET',
 		reqOptions?: any
 	): Promise<T> {
-		const url = `${this.origin}/${endpoint}`; // ex: https
+		const url = `${this.origin}/${endpoint}`; // ex: https://api.openai.com/v1/engines
+
+		const res = await axio
