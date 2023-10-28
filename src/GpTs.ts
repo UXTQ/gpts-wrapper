@@ -69,4 +69,7 @@ export class GpTs {
 			method,
 			headers: this.headers.post,
 			responseType: 'json', // default
-			d
+			data: method == 'POST' ? reqOptions : null,
+		});
+
+		if (res.stat
