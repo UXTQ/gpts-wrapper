@@ -76,4 +76,7 @@ export class GpTs {
 			throw 'invalid api key';
 		} else if (res.status == 403) {
 			throw 'no access to this';
-		} els
+		} else if (res.status !== 200) {
+			throw 'request err';
+		} else {
+	
