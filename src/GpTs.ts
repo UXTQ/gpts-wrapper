@@ -64,4 +64,7 @@ export class GpTs {
 	): Promise<T> {
 		const url = `${this.origin}/${endpoint}`; // ex: https://api.openai.com/v1/engines
 
-		const res = await axio
+		const res = await axios.request<T>({
+			url,
+			method,
+			headers: thi
