@@ -72,4 +72,6 @@ export class GpTs {
 			data: method == 'POST' ? reqOptions : null,
 		});
 
-		if (res.stat
+		if (res.status == 401) {
+			throw 'invalid api key';
+		} else if
