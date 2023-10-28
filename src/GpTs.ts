@@ -67,4 +67,6 @@ export class GpTs {
 		const res = await axios.request<T>({
 			url,
 			method,
-			headers: thi
+			headers: this.headers.post,
+			responseType: 'json', // default
+			d
