@@ -79,4 +79,9 @@ export class GpTs {
 		} else if (res.status !== 200) {
 			throw 'request err';
 		} else {
-	
+			const json = res.data;
+			return json;
+		}
+	}
+
+	async engi
