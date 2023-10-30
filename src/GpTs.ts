@@ -88,4 +88,5 @@ export class GpTs {
 		return await this.request<EngineListResponse>('engines');
 	}
 
-	async engineRetrieve(engineId: EngineId): Promise<EngineRetrieveRes
+	async engineRetrieve(engineId: EngineId): Promise<EngineRetrieveResponse> {
+		return await this.request<EngineRetrieveResp
