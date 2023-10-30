@@ -85,4 +85,7 @@ export class GpTs {
 	}
 
 	async engineList(): Promise<EngineListResponse> {
-		return awa
+		return await this.request<EngineListResponse>('engines');
+	}
+
+	async
