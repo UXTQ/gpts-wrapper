@@ -89,4 +89,7 @@ export class GpTs {
 	}
 
 	async engineRetrieve(engineId: EngineId): Promise<EngineRetrieveResponse> {
-		return await this.request<EngineRetrieveResp
+		return await this.request<EngineRetrieveResponse>(`engines/${engineId}`);
+	}
+
+	async comple
