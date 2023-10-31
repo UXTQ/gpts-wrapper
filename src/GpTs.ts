@@ -92,4 +92,4 @@ export class GpTs {
 		return await this.request<EngineRetrieveResponse>(`engines/${engineId}`);
 	}
 
-	async comple
+	async completion(options: CompletionRequest): Promise<Com
