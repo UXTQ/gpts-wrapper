@@ -98,3 +98,8 @@ export class GpTs {
 		return await this.request<CompletionResponse>(
 			`engines/${engineId}/completions`,
 			'POST',
+			options
+		);
+	}
+
+	// TODO: https://beta.openai.com/docs
