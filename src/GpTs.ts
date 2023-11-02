@@ -95,4 +95,6 @@ export class GpTs {
 	async completion(options: CompletionRequest): Promise<CompletionResponse> {
 		const engineId = options.engineId;
 		delete options.engineId; // some openai endpoints err if you pass in extra params
-		return await this.request<CompletionResp
+		return await this.request<CompletionResponse>(
+			`engines/${engineId}/completions`,
+			'POST',
