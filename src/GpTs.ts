@@ -103,4 +103,5 @@ export class GpTs {
 	}
 
 	// TODO: https://beta.openai.com/docs/api-reference/completions/create-via-get
-	async completionStream(engineId: EngineId, options: Partial<Com
+	async completionStream(engineId: EngineId, options: Partial<CompletionRequest>): Promise<any> {
+		console.warn('TODO - 
