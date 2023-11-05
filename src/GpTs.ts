@@ -109,4 +109,5 @@ export class GpTs {
 	}
 
 	async search(options: SearchRequest): Promise<SearchResponse> {
-		const engineI
+		const engineId = options.engineId;
+		delete options.engineId; // s
