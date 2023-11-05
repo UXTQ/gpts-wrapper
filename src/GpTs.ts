@@ -108,4 +108,5 @@ export class GpTs {
 		return;
 	}
 
-	async search(options: Sear
+	async search(options: SearchRequest): Promise<SearchResponse> {
+		const engineI
