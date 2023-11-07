@@ -110,4 +110,5 @@ export class GpTs {
 
 	async search(options: SearchRequest): Promise<SearchResponse> {
 		const engineId = options.engineId;
-		delete options.engineId; // s
+		delete options.engineId; // some endpoints err if you pass in this
+		return await thi
