@@ -111,4 +111,4 @@ export class GpTs {
 	async search(options: SearchRequest): Promise<SearchResponse> {
 		const engineId = options.engineId;
 		delete options.engineId; // some endpoints err if you pass in this
-		return await thi
+		return await this.request<SearchResponse>(`engines/${engineId}/search`,
