@@ -114,4 +114,6 @@ export class GpTs {
 		return await this.request<SearchResponse>(`engines/${engineId}/search`, 'POST', options);
 	}
 
-	async classification(options: ClassificationRequest): Promise<Classifica
+	async classification(options: ClassificationRequest): Promise<ClassificationResponse> {
+		const engineId = options.engineId;
+		delete opt
