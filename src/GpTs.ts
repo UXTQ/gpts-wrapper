@@ -122,4 +122,4 @@ export class GpTs {
 			model: engineId,
 			...options,
 		};
-		re
+		return await this.request<ClassificationResponse>('classific
