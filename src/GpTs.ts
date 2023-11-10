@@ -116,4 +116,4 @@ export class GpTs {
 
 	async classification(options: ClassificationRequest): Promise<ClassificationResponse> {
 		const engineId = options.engineId;
-		delete opt
+		delete options.engineId; // some endpoints err if you pass in t
