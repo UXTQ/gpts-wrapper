@@ -116,4 +116,6 @@ export class GpTs {
 
 	async classification(options: ClassificationRequest): Promise<ClassificationResponse> {
 		const engineId = options.engineId;
-		delete options.engineId; // some endpoints err if you pass in t
+		delete options.engineId; // some endpoints err if you pass in this
+		// openai mixes up model / engineId here?
+		const opt
