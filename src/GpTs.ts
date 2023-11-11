@@ -125,4 +125,5 @@ export class GpTs {
 		return await this.request<ClassificationResponse>('classifications', 'POST', opts);
 	}
 
-	async answer(options: AnswerRequest
+	async answer(options: AnswerRequest): Promise<AnswerResponse> {
+		const engineId = options.e
