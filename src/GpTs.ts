@@ -126,4 +126,5 @@ export class GpTs {
 	}
 
 	async answer(options: AnswerRequest): Promise<AnswerResponse> {
-		const engineId = options.e
+		const engineId = options.engineId;
+		delete options.engineId; // some endpoints err
