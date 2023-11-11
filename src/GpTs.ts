@@ -128,4 +128,7 @@ export class GpTs {
 	async answer(options: AnswerRequest): Promise<AnswerResponse> {
 		const engineId = options.engineId;
 		delete options.engineId; // some endpoints err if you pass in this
-		// openai mixes up model / engineId here
+		// openai mixes up model / engineId here?
+		const opts = {
+			model: engineId,
+			...options
