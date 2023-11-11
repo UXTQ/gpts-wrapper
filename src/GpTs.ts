@@ -122,4 +122,7 @@ export class GpTs {
 			model: engineId,
 			...options,
 		};
-		return await this.request<ClassificationResponse>('classific
+		return await this.request<ClassificationResponse>('classifications', 'POST', opts);
+	}
+
+	async answer(options: AnswerRequest
