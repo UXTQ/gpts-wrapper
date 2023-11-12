@@ -131,4 +131,6 @@ export class GpTs {
 		// openai mixes up model / engineId here?
 		const opts = {
 			model: engineId,
-			...options
+			...options,
+		};
+		return await this.request<AnswerResponse>('answers', 'POS
