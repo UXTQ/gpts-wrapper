@@ -137,4 +137,5 @@ export class GpTs {
 	}
 
 	async fileList(): Promise<FileListResponse> {
-		retu
+		return await this.request<FileListResponse>('files');
+	
