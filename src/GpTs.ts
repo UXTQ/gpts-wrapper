@@ -141,4 +141,7 @@ export class GpTs {
 	}
 
 	// backend: file is fs.ReadStream (node.js)
-	// frontend: 
+	// frontend: file is ...
+	async fileUpload(
+		file: fs.ReadStream,
+		pur
