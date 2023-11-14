@@ -133,4 +133,8 @@ export class GpTs {
 			model: engineId,
 			...options,
 		};
-		return await this.request<AnswerResponse>('answers', 'POS
+		return await this.request<AnswerResponse>('answers', 'POST', opts);
+	}
+
+	async fileList(): Promise<FileListResponse> {
+		retu
