@@ -138,4 +138,7 @@ export class GpTs {
 
 	async fileList(): Promise<FileListResponse> {
 		return await this.request<FileListResponse>('files');
-	
+	}
+
+	// backend: file is fs.ReadStream (node.js)
+	// frontend: 
