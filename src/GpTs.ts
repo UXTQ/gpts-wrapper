@@ -144,4 +144,5 @@ export class GpTs {
 	// frontend: file is ...
 	async fileUpload(
 		file: fs.ReadStream,
-		pur
+		purpose: 'answers' | 'classifications' | 'search'
+	): Prom
