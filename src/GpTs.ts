@@ -145,4 +145,5 @@ export class GpTs {
 	async fileUpload(
 		file: fs.ReadStream,
 		purpose: 'answers' | 'classifications' | 'search'
-	): Prom
+	): Promise<FileUploadResponse> {
+		const formData = new FormData
