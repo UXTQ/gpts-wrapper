@@ -164,4 +164,6 @@ export class GpTs {
 
 		if (res.status == 401) {
 			throw 'invalid api key';
-		} else if (re
+		} else if (res.status !== 200) {
+			throw 'request err';
+		} else {
