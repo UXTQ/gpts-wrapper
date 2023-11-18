@@ -149,4 +149,7 @@ export class GpTs {
 		const formData = new FormData();
 		formData.append('purpose', purpose);
 		formData.append('file', file);
-		const boundary = formData.getBoundar
+		const boundary = formData.getBoundary();
+
+		const res = await axios({
+			url: `${this.origin}/files`
