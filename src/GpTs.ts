@@ -148,4 +148,5 @@ export class GpTs {
 	): Promise<FileUploadResponse> {
 		const formData = new FormData();
 		formData.append('purpose', purpose);
-		formDa
+		formData.append('file', file);
+		const boundary = formData.getBoundar
