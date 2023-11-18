@@ -152,4 +152,8 @@ export class GpTs {
 		const boundary = formData.getBoundary();
 
 		const res = await axios({
-			url: `${this.origin}/files`
+			url: `${this.origin}/files`,
+			method: 'POST',
+			data: formData,
+			headers: {
+				Auth
