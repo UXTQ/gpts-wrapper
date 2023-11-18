@@ -146,4 +146,6 @@ export class GpTs {
 		file: fs.ReadStream,
 		purpose: 'answers' | 'classifications' | 'search'
 	): Promise<FileUploadResponse> {
-		const formData = new FormData
+		const formData = new FormData();
+		formData.append('purpose', purpose);
+		formDa
