@@ -156,4 +156,5 @@ export class GpTs {
 			method: 'POST',
 			data: formData,
 			headers: {
-				Auth
+				Authorization: `Bearer ${this.apiKey}`,
+				// form-data
