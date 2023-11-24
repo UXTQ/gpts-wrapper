@@ -176,4 +176,4 @@ export class GpTs {
 		return await this.request<FileRetrieveResponse>(`files/${fileId}`);
 	}
 
-	
+	// "Only owners of organizations can delete files currently.
