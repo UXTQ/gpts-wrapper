@@ -184,4 +184,6 @@ export class GpTs {
 
 	// embeddings aka embeddingsCreate
 	/* FYI gpt3 embeddings:
-		Ada (1024 dime
+		Ada (1024 dimensions)
+		Babbage (2048 dimensions)
+		Curie (4096 dim
