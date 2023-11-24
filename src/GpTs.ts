@@ -176,4 +176,5 @@ export class GpTs {
 		return await this.request<FileRetrieveResponse>(`files/${fileId}`);
 	}
 
-	// "Only owners of organizations can delete files currently." (https://beta.openai.com/docs/api-referen
+	// "Only owners of organizations can delete files currently." (https://beta.openai.com/docs/api-reference/files/delete)
+	// not sure about the return type her
