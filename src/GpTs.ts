@@ -179,4 +179,7 @@ export class GpTs {
 	// "Only owners of organizations can delete files currently." (https://beta.openai.com/docs/api-reference/files/delete)
 	// not sure about the return type here as i am not an org owner
 	async fileDelete(fileId: string): Promise<void> {
-		return await this.request<void>(`fil
+		return await this.request<void>(`files/${fileId}`, 'DELETE');
+	}
+
+	// embeddings 
