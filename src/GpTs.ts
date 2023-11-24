@@ -182,4 +182,6 @@ export class GpTs {
 		return await this.request<void>(`files/${fileId}`, 'DELETE');
 	}
 
-	// embeddings 
+	// embeddings aka embeddingsCreate
+	/* FYI gpt3 embeddings:
+		Ada (1024 dime
