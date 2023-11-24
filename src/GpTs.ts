@@ -173,4 +173,7 @@ export class GpTs {
 	}
 
 	async fileRetrieve(fileId: string): Promise<FileRetrieveResponse> {
-		return awa
+		return await this.request<FileRetrieveResponse>(`files/${fileId}`);
+	}
+
+	
