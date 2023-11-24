@@ -172,4 +172,5 @@ export class GpTs {
 		}
 	}
 
-	async fileRetrieve(fi
+	async fileRetrieve(fileId: string): Promise<FileRetrieveResponse> {
+		return awa
