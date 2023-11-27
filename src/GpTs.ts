@@ -189,4 +189,4 @@ export class GpTs {
 		Curie (4096 dimensions)
 		Davinci (12288 dimensions)
 	 */
-	async e
+	async embeddings(options: EmbeddingsRequest): Promise<EmbeddingsRes
