@@ -75,3 +75,69 @@ export type EngineId =
 	// text embeddings? (undocumented)
 	| 'text-ada-001'
 	| 'text-babbage-001'
+	| 'text-curie-001'
+	| 'text-davinci-001'
+	// others
+	| 'content-filter-alpha-c4'
+	| 'content-filter-dev'
+	| 'cursing-filter-v6'
+	| string; // new engines and custom fine-tuned engines will come out all the time...
+
+export type Engine = {
+	id: EngineId;
+	object: ObjectType.engine;
+	owner: string; // 'openai',
+	ready: boolean;
+	// undocumented:
+	created: null;
+	max_replicas: null;
+	permissions: null;
+	ready_replicas: null;
+	replicas: null;
+};
+
+export type EngineListResponse = {
+	data: Engine[];
+	object: ObjectType.list;
+};
+
+export type EngineRetrieveResponse = Engine;
+
+export type CompletionRequest = BasicRequest & {
+	prompt?: string | string[];
+	max_tokens?: number; // 16
+	temperature?: number;
+	top_p?: number;
+	n?: number; // How many completions to generate for each prompt
+	stream?: boolean;
+	logprobs?: boolean;
+	echo?: boolean;
+	stop?: string | string[];
+	presence_penalty?: number;
+	frequency_penalty?: number;
+	best_of?: number;
+	logit_bias?: any; // Record<string, number> // to tinker with
+};
+
+export type CompletionResponse = {
+	id: string;
+	object: ObjectType.text_completion;
+	created: number; // timestamp
+	model: string; // ex: 'davinci:2020-05-03'
+	choices: {
+		text: string;
+		index: number;
+		logprobs: null;
+		finish_reason: string; // 'length' | 'stop' etc...
+	}[];
+};
+
+export type SearchRequest = BasicRequest & {
+	documents?: string[];
+	file?: string;
+	query: string;
+	max_rerank?: number;
+	return_metadata?: boolean;
+};
+
+export type SearchResponse = {
