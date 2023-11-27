@@ -191,4 +191,5 @@ export class GpTs {
 	 */
 	async embeddings(options: EmbeddingsRequest): Promise<EmbeddingsResponse> {
 		const engineId = options.engineId;
-		delete options.engineId
+		delete options.engineId; // some endpoints err if you pass in this
+		return a
