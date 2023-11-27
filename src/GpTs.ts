@@ -189,4 +189,6 @@ export class GpTs {
 		Curie (4096 dimensions)
 		Davinci (12288 dimensions)
 	 */
-	async embeddings(options: EmbeddingsRequest): Promise<EmbeddingsRes
+	async embeddings(options: EmbeddingsRequest): Promise<EmbeddingsResponse> {
+		const engineId = options.engineId;
+		delete options.engineId
