@@ -192,4 +192,7 @@ export class GpTs {
 	async embeddings(options: EmbeddingsRequest): Promise<EmbeddingsResponse> {
 		const engineId = options.engineId;
 		delete options.engineId; // some endpoints err if you pass in this
-		return await this.request<EmbeddingsResponse>(`engines/${engineId}/embedd
+		return await this.request<EmbeddingsResponse>(`engines/${engineId}/embeddings`, 'POST', options);
+	}
+}
+export default GpTs;
