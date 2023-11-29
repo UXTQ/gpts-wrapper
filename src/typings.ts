@@ -141,3 +141,69 @@ export type SearchRequest = BasicRequest & {
 };
 
 export type SearchResponse = {
+	data: SearchResult[];
+	object: ObjectType.list;
+	// undocumented
+	model: string; // 'ada:2020-05-03'
+};
+
+export type SearchResult = {
+	document: number; // index
+	object: ObjectType.search_result;
+	score: number; // 215.412
+};
+
+export type ClassificationRequest = BasicRequest & {
+	model?: EngineId; // ID of the engine to use for completion
+	query: string;
+	examples?: string[][];
+	file?: string;
+	labels?: string[];
+	search_model?: EngineId; // ID of the engine to use for semantic search
+	temperature?: number;
+	logprobs?: number;
+	max_examples?: number;
+	logit_bias?: any;
+	return_prompt?: boolean;
+	return_metadata?: boolean;
+	expand?: string[];
+};
+
+export type ClassificationResponse = {
+	completion: string; // 'cmpl-2euN7lUVZ0d4RKbQqRV79IiiE6M1f',
+	label: string; // 'Negative',
+	model: string; // 'curie:2020-05-03',
+	object: ObjectType.classification;
+	search_model: EngineId;
+	selected_examples: {
+		document: number;
+		label: string;
+		text: string;
+	}[];
+};
+
+export type AnswerRequestBase = BasicRequest & {
+	model?: EngineId; // engineId == model?
+	question: string;
+	examples: string[][];
+	examples_context: string;
+	search_model?: EngineId;
+	max_rerank?: number;
+	temperature?: number;
+	logprobs?: number;
+	max_tokens?: number;
+	stop?: string | string[];
+	n?: number;
+	logit_bias?: any;
+	return_metadata?: boolean;
+	return_prompt?: boolean;
+	expand?: string[];
+};
+
+export type AnswerRequestDocuments = AnswerRequestBase & {
+	documents: string[];
+};
+
+export type AnswerRequestFile = AnswerRequestBase & {
+	file: string;
+};
