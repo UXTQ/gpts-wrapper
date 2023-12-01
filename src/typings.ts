@@ -207,3 +207,59 @@ export type AnswerRequestDocuments = AnswerRequestBase & {
 export type AnswerRequestFile = AnswerRequestBase & {
 	file: string;
 };
+
+// "You should specify either documents or a file, but not both." (https://beta.openai.com/docs/api-reference/answers/create)
+export type AnswerRequest = AnswerRequestDocuments | AnswerRequestFile;
+
+export type AnswerResponse = {
+	answers: string[];
+	completion: string; // 'cmpl-2euVa1kmKUuLpSX600M41125Mo9NI',
+	model: string; // 'curie:2020-05-03',
+	object: ObjectType.answer;
+	search_model: EngineId;
+	selected_documents: {
+		document: number;
+		text: string;
+	}[];
+};
+
+export type File = {
+	id: string; // 'file-ccdDZrC3iZVNiQVeEA6Z66wf',
+	object: ObjectType.file;
+	bytes: number; // 175,
+	created_at: number; // 1613677385,
+	filename: string; // 'train.jsonl',
+	format?: string; // 'TEXT_HASH_JSONL' // 'TEXT_JSONL'
+	purpose: 'answers' | 'classifications' | 'search'; // 'search'
+	status?: string; // 'uploaded' | 'processed' | more...? deleted
+};
+
+export type FileListResponse = {
+	data: File[];
+	object: ObjectType.list;
+};
+
+export type FileUploadResponse = File;
+
+export type FileRetrieveResponse = File;
+
+export type EmbeddingsRequest = BasicRequest & {
+	input: string | string[];
+	user?: string;
+};
+
+export type EmbeddingsResponse = {
+	object: ObjectType.list;
+	model: string; // 'text-similarity-babbage:001'
+	data: {
+		object: ObjectType.embedding;
+		index: number;
+		embedding: number[]; // vector float array. for arr lengths see below
+		/* FYI gpt3 embeddings:
+			Ada (1024 dimensions)
+			Babbage (2048 dimensions)
+			Curie (4096 dimensions)
+			Davinci (12288 dimensions)
+		*/
+	}[];
+};
