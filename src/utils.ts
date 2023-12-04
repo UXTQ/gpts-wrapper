@@ -1,1 +1,1 @@
-export cons
+export const hello = (): string => 'world';
