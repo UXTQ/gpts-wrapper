@@ -1,1 +1,1 @@
-# gpts-wrapper = [gpt-3](https://openai.com/blog/openai-api/) + [typescript](https://www.typescriptlang.org/)\n
+# gpts-wrapper = [gpt-3](https://openai.com/blog/openai-api/) + [typescript](https://www.typescriptlang.org/)\n\nA TypeScript wrapper for the GPT-3 API that enables developers t
