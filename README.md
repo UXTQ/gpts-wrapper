@@ -1,1 +1,1 @@
-# gpts-wrapper = [gpt-3](https://openai.com/blog/openai-api/) + [
+# gpts-wrapper = [gpt-3](https://openai.com/blog/openai-api/) + [typescript](https://www.typescriptlang.org/)\n
